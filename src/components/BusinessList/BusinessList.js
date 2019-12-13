@@ -1,8 +1,8 @@
 import React from 'react';
-import './BussinessList.css';
-import { Business } from '../Business/Business';
+import './BusinessList.css';
+import Business from '../Business/Business';
 
-class BussinessList extends React.Component {
+class BusinessList extends React.Component {
     render() {
         return (
             <div className="BusinessList">
@@ -17,4 +17,4 @@ class BussinessList extends React.Component {
     }
 }
 
-export default BussinessList;
+export default BusinessList;
